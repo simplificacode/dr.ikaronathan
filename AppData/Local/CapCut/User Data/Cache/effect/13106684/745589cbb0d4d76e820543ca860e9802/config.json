@@ -1,0 +1,15 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "path": "AmazingFeature/",
+                "type": "AmazingFeature",
+                "zorder": 999
+            }
+        ],
+        "forceRender": true
+    },
+    "bALG_BACH_CONFIG": true,
+    "name": "76D57C3E-2613-4F50-9D36-jbIbldBdCc5mbKbIc5cld3bEcmcznts-noskin",
+    "version": "10.1.0"
+}

@@ -1,0 +1,85 @@
+%YAML 1.1
+--- !Scene &1
+name: Sticker_empty
+guid: {a: 7728202298759107630, b: 4591771596645522361}
+calibrateVer: V4
+entities:
+  - __class: Entity
+    name: Camera_entity
+    guid: {a: 2182229017543638991, b: 13925318748483902122}
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 2}
+      - __class: Camera
+        name: Camera_camera
+        guid: {a: 9388871675996992610, b: 8096255974398298511}
+        enabled: true
+        layerVisibleMask: {__class: DynamicBitset, numBits: 1, values: [1]}
+        renderOrder: 1
+        type:
+          __class: CameraType
+          value: ORTHO
+        clearColor: {r: 0, g: 0, b: 0, a: 0}
+        clearType:
+          __class: CameraClearType
+          value: COLOR
+        alwaysClear: true
+        viewport: {x: 0, y: 0, w: 1, h: 1}
+        fovy: 60
+        orthoScale: 1
+        zNear: 0.1000000014901161
+        zFar: 1000
+        renderTexture: {localId: 1, path: rt/outputTex.rt}
+        isRootCamera: true
+    layer: 0
+  - __class: Entity
+    name: SeekModeScript
+    guid: {a: 5999856555567615931, b: 8384288190512049570}
+    scene: {localId: 1}
+    selfvisible: true
+    tag: 0
+    components:
+      - {localId: 3}
+      - __class: MeshRenderer
+        name: ""
+        guid: {a: 11619869594966785701, b: 15377168373796860549}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: material/entity.material}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        mesh: {localId: 1, path: mesh/quad.mesh}
+        castShadow: true
+      - __class: ScriptComponent
+        name: ""
+        guid: {a: 309180886041563259, b: 14719141325540764842}
+        enabled: true
+        path: lua/SeekModeScript.lua
+        properties:
+          __class: Map
+          curTime: 0
+        className: Script
+    layer: 0
+visible: true
+config:
+  __class: Map
+msaa:
+  __class: MSAAMode
+  value: NONE
+--- !Transform &2
+name: Camera_transform
+guid: {a: 15657968059696852863, b: 3511757527557588906}
+enabled: true
+localPosition: {x: 0, y: 0, z: 10}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+--- !Transform &3
+name: ""
+guid: {a: 13999193105685744271, b: 16959963984576338077}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}

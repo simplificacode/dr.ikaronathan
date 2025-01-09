@@ -1,0 +1,20 @@
+{
+    "effect_id": "13106684",
+    "file_url": {
+        "uri": "745589cbb0d4d76e820543ca860e9802",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/745589cbb0d4d76e820543ca860e9802",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/745589cbb0d4d76e820543ca860e9802",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/745589cbb0d4d76e820543ca860e9802",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/745589cbb0d4d76e820543ca860e9802"
+        ]
+    },
+    "model_names": "",
+    "name": "Ajuste automático",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "general_lens"
+    ],
+    "resource_id": "7195102367438606850"
+}

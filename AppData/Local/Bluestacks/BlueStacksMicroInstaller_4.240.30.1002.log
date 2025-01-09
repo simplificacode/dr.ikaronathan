@@ -1,0 +1,76 @@
+﻿2023-10-08 13:34:08.361 9876:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2023-10-08 13:34:08.361 9876:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2023-10-08 13:34:08.376 9876:00000001 (BlueStacksInstaller) INFO: Successfully populated pt-BR strings
+2023-10-08 13:34:08.376 9876:00000001 (BlueStacksInstaller) INFO: Populated strings for pt-BR: True
+2023-10-08 13:34:08.376 9876:00000001 (BlueStacksInstaller) INFO: Assigning build platform
+2023-10-08 13:34:08.376 9876:00000001 (BlueStacksInstaller) INFO: Checking Hyper-V in system
+2023-10-08 13:34:08.392 9876:00000001 (BlueStacksInstaller) INFO: IsHyperVEnabled: 1
+2023-10-08 13:34:08.392 9876:00000001 (BlueStacksInstaller) INFO: Suffix: _bgp64_hyperv
+2023-10-08 13:34:08.392 9876:00000001 (BlueStacksInstaller) INFO: Build platform: CustomHyperV
+2023-10-08 13:34:08.408 9876:00000001 (BlueStacksInstaller) WARNING: Failed to set registry value at Software\BlueStacksInstaller for VersionMachineId_4.240.30.1002:9ecb8844-78ca-44d7-9623-edff9438b87e
+2023-10-08 13:34:08.426 9876:00000001 (BlueStacksInstaller) INFO: FileName: bluestacks-app-player-4-240-30-1002.exe
+2023-10-08 13:34:08.426 9876:00000001 (BlueStacksInstaller) INFO: Campaign: null
+2023-10-08 13:34:08.426 9876:00000001 (BlueStacksInstaller) INFO: Sending: mi_launched, , 
+2023-10-08 13:34:09.192 9876:00000001 (BlueStacksInstaller) INFO: File path: C:\Users\ewert\AppData\Local\Temp\7zS82D12817\BlueStacksInstaller.exe
+2023-10-08 13:34:09.226 9876:00000001 (BlueStacksInstaller) INFO: args: "install" "bluestacks-app-player-4-240-30-1002.exe" "null" "non_admin" "9c4f0e97-8d85-451a-bddc-5305c085b125" "9ecb8844-78ca-44d7-9623-edff9438b87e"
+2023-10-08 13:34:09.226 9876:00000005 (BlueStacksInstaller) INFO: Sending: mi_uac_prompted, , 
+2023-10-08 13:34:12.370 2652:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2023-10-08 13:34:12.370 2652:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2023-10-08 13:34:12.385 2652:00000001 (BlueStacksInstaller) INFO: Successfully populated pt-BR strings
+2023-10-08 13:34:12.385 2652:00000001 (BlueStacksInstaller) INFO: Populated strings for pt-BR: True
+2023-10-08 13:34:12.385 2652:00000001 (BlueStacksInstaller) INFO: Assigning build platform
+2023-10-08 13:34:12.385 2652:00000001 (BlueStacksInstaller) INFO: Checking Hyper-V in system
+2023-10-08 13:34:12.385 2652:00000001 (BlueStacksInstaller) INFO: IsHyperVEnabled: 1
+2023-10-08 13:34:12.385 2652:00000001 (BlueStacksInstaller) INFO: Suffix: _bgp64_hyperv
+2023-10-08 13:34:12.385 2652:00000001 (BlueStacksInstaller) INFO: Build platform: CustomHyperV
+2023-10-08 13:34:12.401 2652:00000004 (BlueStacksInstaller) INFO: Sending: mi_admin_launched, , 
+2023-10-08 13:34:12.443 2652:00000001 (BlueStacksInstaller) INFO: Returning PDDir: C:\ProgramData\BlueStacks_bgp64_hyperv
+2023-10-08 13:34:12.443 2652:00000001 (BlueStacksInstaller) INFO: Returning PFDir: C:\Program Files\BlueStacks_bgp64_hyperv
+2023-10-08 13:34:13.144 2652:00000007 (BlueStacksInstaller) INFO: The json response for get_installer_images null is {"installer_images": []}
+2023-10-08 13:34:13.191 2652:00000001 (BlueStacksInstaller) ERROR: Exception while setting image as background System.IO.DirectoryNotFoundException: Não foi possível localizar uma parte do caminho 'C:\Users\ewert\AppData\Local\Temp\Assets'.
+   em System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   em System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   em System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   em System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   em BlueStacks.MicroInstaller.MainWindow.MCampaignImageDownloader_RunWorkerCompleted(Object sender, RunWorkerCompletedEventArgs e)
+2023-10-08 13:34:14.374 2652:00000004 (BlueStacksInstaller) INFO: Sending: mi_license_agreed, , 
+2023-10-08 13:34:14.374 2652:00000001 (BlueStacksInstaller) INFO: Checking for physical memory
+2023-10-08 13:34:14.435 2652:00000001 (BlueStacksInstaller) INFO: Available: 16131 MB, Required: 1024 MB
+2023-10-08 13:34:14.435 2652:00000001 (BlueStacksInstaller) INFO: HDD space available datadir: 855 GB
+2023-10-08 13:34:14.435 2652:0000000D (BlueStacksInstaller) INFO: Sending: mi_checks_passed, , 
+2023-10-08 13:34:14.435 2652:00000001 (BlueStacksInstaller) INFO: Temp download path: C:\Users\ewert\AppData\Local\Temp\bluestacks-app-player-4-240-30-1002.exe
+2023-10-08 13:34:14.435 2652:00000001 (BlueStacksInstaller) INFO: Installer file path: C:\Users\ewert\AppData\Local\BlueStacksSetup\bluestacks-app-player-4-240-30-1002.exe
+2023-10-08 13:34:14.442 2652:0000000E (BlueStacksInstaller) INFO: Download url: https://cdn3.bluestacks.com/downloads/windows/bgp64_hyperv/4.240.15.4204/14249e66b18ca4783529a7c52fe659d3/x64/BlueStacks-Installer_4.240.15.4204_amd64_native.exe?filename=bluestacks-app-player-4-240-30-1002.exe
+2023-10-08 13:34:14.709 2652:0000000F (BlueStacksInstaller) INFO: Sending: mi_download_started, , 
+2023-10-08 13:34:17.451 2652:00000007 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2023-10-08 13:34:17.451 2652:00000007 (BlueStacksInstaller) INFO: LastRecorded: 0, Downloaded: 27197020
+2023-10-08 13:34:22.454 2652:00000007 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2023-10-08 13:34:22.454 2652:00000007 (BlueStacksInstaller) INFO: LastRecorded: 27197020, Downloaded: 82378324
+2023-10-08 13:34:27.471 2652:00000007 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2023-10-08 13:34:27.471 2652:00000007 (BlueStacksInstaller) INFO: LastRecorded: 82378324, Downloaded: 134786978
+2023-10-08 13:34:32.490 2652:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2023-10-08 13:34:32.490 2652:00000008 (BlueStacksInstaller) INFO: LastRecorded: 134786978, Downloaded: 182080722
+2023-10-08 13:34:37.502 2652:00000007 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2023-10-08 13:34:37.502 2652:00000007 (BlueStacksInstaller) INFO: LastRecorded: 182080722, Downloaded: 233088226
+2023-10-08 13:34:42.506 2652:00000007 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2023-10-08 13:34:42.506 2652:00000007 (BlueStacksInstaller) INFO: LastRecorded: 233088226, Downloaded: 283395538
+2023-10-08 13:34:47.508 2652:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2023-10-08 13:34:47.508 2652:00000009 (BlueStacksInstaller) INFO: LastRecorded: 283395538, Downloaded: 337188674
+2023-10-08 13:34:52.522 2652:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2023-10-08 13:34:52.522 2652:00000008 (BlueStacksInstaller) INFO: LastRecorded: 337188674, Downloaded: 388758306
+2023-10-08 13:34:57.535 2652:00000007 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2023-10-08 13:34:57.535 2652:00000007 (BlueStacksInstaller) INFO: LastRecorded: 388758306, Downloaded: 447051002
+2023-10-08 13:35:02.558 2652:00000007 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2023-10-08 13:35:02.558 2652:00000007 (BlueStacksInstaller) INFO: LastRecorded: 447051002, Downloaded: 502806362
+2023-10-08 13:35:07.574 2652:00000009 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2023-10-08 13:35:07.574 2652:00000009 (BlueStacksInstaller) INFO: LastRecorded: 502806362, Downloaded: 561420842
+2023-10-08 13:35:12.574 2652:00000007 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2023-10-08 13:35:12.574 2652:00000007 (BlueStacksInstaller) INFO: LastRecorded: 561420842, Downloaded: 616419194
+2023-10-08 13:35:17.588 2652:00000008 (BlueStacksInstaller) INFO: Status timer tick, mIsDownloading: True
+2023-10-08 13:35:17.588 2652:00000008 (BlueStacksInstaller) INFO: LastRecorded: 616419194, Downloaded: 673706298
+2023-10-08 13:35:21.218 2652:0000000E (BlueStacksInstaller) INFO: MIsDownloading false
+2023-10-08 13:35:21.218 2652:0000000C (BlueStacksInstaller) INFO: Sending: mi_download_completed, , 
+2023-10-08 13:35:21.218 2652:0000000B (BlueStacksInstaller) INFO: Installer file moved from C:\Users\ewert\AppData\Local\Temp\bluestacks-app-player-4-240-30-1002.exe to C:\Users\ewert\AppData\Local\BlueStacksSetup\bluestacks-app-player-4-240-30-1002.exe
+2023-10-08 13:35:21.987 2652:00000010 (BlueStacksInstaller) INFO: Sending: mi_full_installer_launched, , 
+2023-10-08 13:40:28.359 2652:0000000B (BlueStacksInstaller) INFO: Full installer process finished with ExitCode: 0
+2023-10-08 13:40:28.409 9876:00000001 (BlueStacksInstaller) INFO: Sending: mi_client_launched, , 

@@ -1,0 +1,21 @@
+{
+    "effect_id": "115750836",
+    "file_url": {
+        "uri": "9122d375a75c769eb15eda443fa3efb0",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/9122d375a75c769eb15eda443fa3efb0",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/9122d375a75c769eb15eda443fa3efb0",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/9122d375a75c769eb15eda443fa3efb0",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/9122d375a75c769eb15eda443fa3efb0"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "estilo celebridade da internet",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "freid"
+    ],
+    "resource_id": "7295631798527070722"
+}

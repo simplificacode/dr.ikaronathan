@@ -1,0 +1,22 @@
+{
+    "effect_id": "122701292",
+    "file_url": {
+        "uri": "b0d7edcba031d1f3c7110dfee59b89f8",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/b0d7edcba031d1f3c7110dfee59b89f8",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/b0d7edcba031d1f3c7110dfee59b89f8",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/b0d7edcba031d1f3c7110dfee59b89f8",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/b0d7edcba031d1f3c7110dfee59b89f8"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_facefitting1256\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "Cherry Cola",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "face_fitting",
+        "freid"
+    ],
+    "resource_id": "7299449367335801346"
+}

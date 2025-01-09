@@ -1,0 +1,11 @@
+{
+    "setting": {
+        "animation_duration": 1.6,
+        "animation_adjust_params": [{
+            "default": "all",
+            "effect_key": "animation_adjust_content_mode",
+            "options": ["all", "char", "word"]
+        }]
+    },
+    "External_Producer": true
+}

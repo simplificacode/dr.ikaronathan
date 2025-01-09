@@ -1,0 +1,22 @@
+{
+    "effect_id": "149897278",
+    "file_url": {
+        "uri": "8f3bc975aaaf27219892c2f0957c9062",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/8f3bc975aaaf27219892c2f0957c9062",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/8f3bc975aaaf27219892c2f0957c9062",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/8f3bc975aaaf27219892c2f0957c9062",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/8f3bc975aaaf27219892c2f0957c9062"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_facefitting1256\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "Açúcar Fairy",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "face_fitting",
+        "freid"
+    ],
+    "resource_id": "7311974863743226369"
+}

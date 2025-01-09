@@ -1,0 +1,13 @@
+version: 1
+web:
+  dir: "."
+  runtime: "worker"
+  isCustomServer: false
+routes:
+  - src: "/chat-bot/**"
+    dest:
+      type: "web"
+      path: "chat-bot.html"
+      ssr: false
+      redirect: ""
+      stream: false

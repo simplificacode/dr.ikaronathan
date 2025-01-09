@@ -1,0 +1,50 @@
+%YAML 1.1
+--- !Material &1
+name: enity_material
+guid: {a: 9387701938890421994, b: 8656653535839351216}
+xshader: {localId: 1, path: xshader/entity.xshader}
+properties:
+  __class: PropertySheet
+  name: enity_propertySheet
+  guid: {a: 5855377927617993297, b: 9165032554372285607}
+  floatmap:
+    __class: Map
+    duration: 3
+    slim_all: 0
+    slim_body: 0
+    slim_body_scale: 1
+    slim_head_scale: 1
+    slim_waist: 0
+    slim_waist_scale: 1
+    small_head: 0
+    stretch_leg: 0.0
+    timer: 0
+  vec4map:
+    __class: Map
+    slim_body_rect: {x: 0, y: 0, z: 0, w: 0}
+    slim_head_rect: {x: 0, y: 0, z: 0, w: 0}
+    slim_waist_rect: {x: 0, y: 0, z: 0, w: 0}
+  vec3map:
+    __class: Map
+    stretch_legs_bounds: {x: -1.0, y: -1.0, z: 0.0}
+  vec2map:
+    __class: Map
+    resolution: {x: 1, y: 1}
+    resolution_inv: {x: 1, y: 1}
+    slim_body_center_point: {x: 0, y: 0}
+    slim_head_center_point: {x: 0, y: 0}
+    slim_waist_center_point: {x: 0, y: 0}
+    stretch_legs_scales: {x: 1.0, y: 1.0}
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+    inputImageTexture: {localId: 1, path: share://input.texture}
+  intmap:
+    __class: Map
+    baseTexHeight: 1080
+    baseTexWidth: 720
+renderQueue: 1
+enabledMacros:
+  __class: Map
+mshaderPath: ""

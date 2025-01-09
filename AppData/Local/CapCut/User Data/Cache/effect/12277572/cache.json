@@ -1,0 +1,21 @@
+{
+    "effect_id": "12277572",
+    "file_url": {
+        "uri": "b40e84723cc73904339fa094b0d78eee",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/b40e84723cc73904339fa094b0d78eee",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/b40e84723cc73904339fa094b0d78eee",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/b40e84723cc73904339fa094b0d78eee",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/b40e84723cc73904339fa094b0d78eee"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face\",\"tt_face_extra\",\"tt_skeletonsquat\"]}",
+    "name": "Fino",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "skeleton"
+    ],
+    "resource_id": "6977639534938821121"
+}

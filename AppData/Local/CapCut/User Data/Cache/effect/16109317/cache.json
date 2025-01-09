@@ -1,0 +1,22 @@
+{
+    "effect_id": "16109317",
+    "file_url": {
+        "uri": "1a54ce6e30e262b72b46dfa257a5948e",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/1a54ce6e30e262b72b46dfa257a5948e",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/1a54ce6e30e262b72b46dfa257a5948e",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/1a54ce6e30e262b72b46dfa257a5948e",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/1a54ce6e30e262b72b46dfa257a5948e"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "人脸框",
+    "panel": "",
+    "requirements": [
+        "face",
+        "freid",
+        "blit",
+        "faceDetect"
+    ],
+    "resource_id": "7207391969436242434"
+}

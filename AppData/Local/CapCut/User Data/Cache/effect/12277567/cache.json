@@ -1,0 +1,21 @@
+{
+    "effect_id": "12277567",
+    "file_url": {
+        "uri": "f7e3c747ee27d0abc2741f95ef45aa97",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/f7e3c747ee27d0abc2741f95ef45aa97",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/f7e3c747ee27d0abc2741f95ef45aa97",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/f7e3c747ee27d0abc2741f95ef45aa97",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/f7e3c747ee27d0abc2741f95ef45aa97"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face\",\"tt_face_extra\",\"tt_skeletonsquat\"]}",
+    "name": "Tamanho da cabeça",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "skeleton"
+    ],
+    "resource_id": "6977639776321016322"
+}

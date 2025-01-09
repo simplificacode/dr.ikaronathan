@@ -1,0 +1,28 @@
+{
+    "effect_id": "12384258",
+    "file_url": {
+        "uri": "465a1d9f0a3ea06ab7eef6b0e73193a7",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/465a1d9f0a3ea06ab7eef6b0e73193a7",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/465a1d9f0a3ea06ab7eef6b0e73193a7",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/465a1d9f0a3ea06ab7eef6b0e73193a7",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies-fe-effect-va/465a1d9f0a3ea06ab7eef6b0e73193a7"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face\",\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_freid\",\"skinunified\"]}",
+    "name": "Uniforme",
+    "panel": "",
+    "requirements": [
+        "nh_face_align",
+        "nh_image_transform",
+        "nh_inference",
+        "nh_style_transfer_post_process",
+        "nh_convert_to_tensor",
+        "blit",
+        "face",
+        "freid",
+        "nh_face_select",
+        "faceDetect"
+    ],
+    "resource_id": "7148630807379186177"
+}

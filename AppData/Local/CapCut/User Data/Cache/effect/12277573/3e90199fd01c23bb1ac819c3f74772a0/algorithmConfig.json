@@ -1,0 +1,71 @@
+{
+	"version":	"1.0",
+	"mode":	2,
+	"model_names":	{
+		"alg_model":	["tt_face", "tt_face_extra", "tt_skeletonsquat"]
+	},
+	"nodes":	[{
+			"name":	"blit_0",
+			"type":	"blit",
+			"config":	{
+				"size":	{
+					"width":	360,
+					"height":	640
+				},
+				"keyMaps":	{
+					"intParam":	{
+					},
+					"floatParam":	{
+					},
+					"stringParam":	{
+					},
+					"pathParam":	{
+					}
+				}
+			}
+		}, {
+			"name":	"face_0",
+			"type":	"face",
+			"config":	{
+				"keyMaps":	{
+					"intParam":	{
+						"face_detect_ability":	0
+					},
+					"floatParam":	{
+					},
+					"stringParam":	{
+					},
+					"pathParam":	{
+					}
+				}
+			}
+		}, {
+			"name":	"skeleton_0",
+			"type":	"skeleton",
+			"config":	{
+				"keyMaps":	{
+					"intParam":	{
+						"skeleton_force_detect": 1
+					},
+					"floatParam":	{
+					},
+					"stringParam":	{
+						"skeleton_model_key":	"tt_skeletonsquat"
+					},
+					"pathParam":	{
+					}
+				}
+			}
+		}],
+	"links":	[{
+			"fromNode":	"blit_0",
+			"fromIndex":	0,
+			"toNode":	"face_0",
+			"toIndex":	0
+		}, {
+			"fromNode":	"blit_0",
+			"fromIndex":	0,
+			"toNode":	"skeleton_0",
+			"toIndex":	0
+		}]
+}
