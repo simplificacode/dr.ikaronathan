@@ -1,1 +1,0 @@
-/content.json, /anim.prefab, /rt.material, /rt.frag, /config.json, /TextAnim.lua, /rt.xshader, /rt.vert/content.json, /anim.prefab, /rt.material, /rt.frag, /config.json, /TextAnim.lua, /rt.xshader, /effect_platform_children.tag, /rt.vert

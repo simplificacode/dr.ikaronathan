@@ -1,1 +1,0 @@
-/algorithmConfig.json,/AmazingFeature/content.json,/AmazingFeature/lua/face_info.lua,/AmazingFeature/main.scene,/AmazingFeature/mesh/Face145_mesh.mesh,/AmazingFeature/rt/outputTex.rt,/AmazingFeature/scene.config,/AmazingFeature/sticker.config,/config.json

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkartist_op_web=self.webpackChunkartist_op_web||[]).push([[709,778],{2435:function(t,e,u){u.r(e),u.d(e,{default:function(){return a.default}});var a=u(22788)}}]);
